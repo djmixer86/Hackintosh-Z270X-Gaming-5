@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleGetInfoString</key>
+	<string>2.7.0 Injector for ASMedia 2142</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.apfelnico</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>Injector for ASMedia 2142</string>
+	<key>CFBundlePackageType</key>
+	<string>KEXT</string>
+	<key>CFBundleShortVersionString</key>
+	<string>2.7.0 Injector for ASMedia 2142</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleVersion</key>
+	<string>2.7.0</string>
+	<key>IOKitPersonalities</key>
+	<dict>
+		<key>RP01 - PXSX - PXSX@01000000</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.apple.driver.usb.AppleUSBXHCIPCI</string>
+			<key>IOClass</key>
+			<string>AppleUSBXHCIPCI</string>
+			<key>IOPCIPrimaryMatch</key>
+			<string>0x21421b21</string>
+			<key>IOProbeScore</key>
+			<integer>9000</integer>
+			<key>IOProviderClass</key>
+			<string>IOPCIDevice</string>
+			<key>kUSBMuxEnabled</key>
+			<true/>
+			<key>kUSBSleepPortCurrentLimit</key>
+			<integer>2100</integer>
+			<key>kUSBSleepPowerSupply</key>
+			<integer>5100</integer>
+			<key>kUSBWakePortCurrentLimit</key>
+			<integer>2100</integer>
+			<key>kUSBWakePowerSupply</key>
+			<integer>5100</integer>
+			<key>model</key>
+			<string>iMacPro1,1</string>
+			<key>port-count</key>
+			<data>
+			BAAAAA==
+			</data>
+			<key>ports</key>
+			<dict>
+				<key>HS01</key>
+				<dict>
+					<key>Comment</key>
+					<string>Rear USB 3.1 Type-A, 2.0 personality</string>
+					<key>UsbConnector</key>
+					<integer>0</integer>
+					<key>port</key>
+					<data>
+					AwAAAA==
+					</data>
+				</dict>
+				<key>HS02</key>
+				<dict>
+					<key>Comment</key>
+					<string>Rear USB 3.1 Type-C, 2.0 personality</string>
+					<key>UsbConnector</key>
+					<integer>8</integer>
+					<key>port</key>
+					<data>
+					BAAAAA==
+					</data>
+				</dict>
+				<key>SS01</key>
+				<dict>
+					<key>Comment</key>
+					<string>Rear USB 3.1 Type-A, 3.1 personality</string>
+					<key>UsbConnector</key>
+					<integer>3</integer>
+					<key>port</key>
+					<data>
+					AQAAAA==
+					</data>
+				</dict>
+				<key>SS02</key>
+				<dict>
+					<key>Comment</key>
+					<string>Rear USB 3.1 Type-C, 3.1 personality</string>
+					<key>UsbConnector</key>
+					<integer>9</integer>
+					<key>port</key>
+					<data>
+					AgAAAA==
+					</data>
+				</dict>
+			</dict>
+		</dict>
+	</dict>
+	<key>NSHumanReadableCopyright</key>
+	<string>Copyright © 2017-2020 apfelnico. All rights reserved.</string>
+	<key>OSBundleRequired</key>
+	<string>Root</string>
+</dict>
+</plist>
